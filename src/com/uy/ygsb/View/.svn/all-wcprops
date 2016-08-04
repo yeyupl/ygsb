@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/game_ygsb/!svn/ver/90/android/trunk/src/com/uy/ygsb/View
+END
+ServerListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/game_ygsb/!svn/ver/116/android/trunk/src/com/uy/ygsb/View/ServerListAdapter.java
+END
+ShopListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/game_ygsb/!svn/ver/116/android/trunk/src/com/uy/ygsb/View/ShopListAdapter.java
+END
+ItemListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/game_ygsb/!svn/ver/116/android/trunk/src/com/uy/ygsb/View/ItemListAdapter.java
+END
+RoleListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/game_ygsb/!svn/ver/116/android/trunk/src/com/uy/ygsb/View/RoleListAdapter.java
+END

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/game_map"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/map"
+    >
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:gravity="center"
+	    >
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:orientation="vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="8dip"
+				android:layout_marginTop="5dip"
+				>
+				<FrameLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+					<ImageView android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:background="@drawable/role_info_panel"
+					/>
+					<ImageView  android:id="@+id/game_role_avatar"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:background="@drawable/avatar"
+					/>
+					<ImageView android:id="@+id/game_role_camp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="right"
+						android:background="@drawable/camp_beast"
+						android:layout_marginTop="20dip"
+						android:layout_marginRight="10dip"
+					/>
+					<TextView android:id="@+id/game_role_level"
+						android:layout_width="20dip"
+						android:layout_height="wrap_content"
+						android:layout_gravity="left"
+						android:gravity="center"
+						android:textColor="@color/yellow"
+						android:layout_marginLeft="41dip"
+						android:layout_marginTop="7dip"
+						android:textSize="14dip"
+						android:textStyle="bold"
+						android:text="1"
+					/>
+					<TextView android:id="@+id/game_role_name"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="left"
+						android:layout_marginLeft="65dip"
+						android:textColor="@color/white"
+						android:layout_marginTop="-5dip"
+						android:textSize="16dip"
+						android:textStyle="bold"
+						android:shadowColor="@color/orange"
+						android:shadowDx="-1.0" 
+						android:shadowDy="-1.0" 
+						android:shadowRadius="1.0"
+					/>
+					<ProgressBar android:id="@+id/game_role_hp"
+						style="?android:attr/progressBarStyleHorizontal" 
+						android:layout_gravity="left"
+						android:layout_width="90dip" android:layout_height="10dip"
+						android:indeterminate="false"
+						android:progressDrawable="@drawable/hp_layer"
+						android:layout_marginLeft="65dip"
+						android:layout_marginTop="21dip"
+						/>
+					<ProgressBar  android:id="@+id/game_role_mp"
+						style="?android:attr/progressBarStyleHorizontal" 
+						android:layout_gravity="left"
+						android:layout_width="90dip" android:layout_height="10dip"
+						android:indeterminate="false"
+						android:progressDrawable="@drawable/mp_layer"
+						android:layout_marginLeft="50dip"
+						android:layout_marginTop="35dip"
+						/>
+				<TextView android:id="@+id/game_role_hp_val"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="left"
+						android:textColor="@color/white"
+						android:layout_marginLeft="90dip"
+						android:layout_marginTop="18dip"
+						android:textSize="11dip"
+						android:text="0/0"
+					/>
+					<TextView android:id="@+id/game_role_mp_val"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_gravity="left"
+						android:textColor="@color/white"
+						android:layout_marginLeft="75dip"
+						android:layout_marginTop="33dip"
+						android:textSize="11dip"
+						android:text="0/0"
+					/>
+				</FrameLayout>
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+				  >
+					  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.0"
+					   >
+					    <ImageView
+					    	android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:background="@drawable/money_gold"
+							android:layout_gravity="center_vertical"
+							/>
+						<TextView android:id="@+id/game_role_gold"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textColor="@color/white"
+							android:layout_marginLeft="5dip"
+							android:textSize="15dip"
+							android:text="0"
+						/>
+					</LinearLayout>
+					<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.0"
+					  >
+						<ImageView
+					    	android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:background="@drawable/money_silver"
+							android:layout_gravity="center_vertical"
+							/>
+						<TextView android:id="@+id/game_role_silver"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textColor="@color/white"
+							android:layout_marginLeft="5dip"
+							android:textSize="15dip"
+							android:text="0"
+						/>
+					</LinearLayout>
+					<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.0"
+					  >
+						<ImageView
+					    	android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:background="@drawable/money_copper"
+							android:layout_gravity="center_vertical"
+							/>
+						<TextView android:id="@+id/game_role_copper"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textColor="@color/white"
+							android:layout_marginLeft="5dip"
+							android:textSize="15dip"
+							android:text="0"
+						/>
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1.0"
+			/>
+			<ImageButton android:id="@+id/toolbar_map"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="10dip"
+				android:layout_marginTop="10dip"
+				android:background="@drawable/toolbar_map"
+			/>
+		</LinearLayout>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			>
+		</LinearLayout>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="bottom"
+			android:layout_marginLeft="5dip"
+			android:layout_marginBottom="-28dip"
+			android:layout_weight="1.0"
+			>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				>
+			<ImageButton android:id="@+id/chat_scale"
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:background="@drawable/scale_v"
+			 />
+			 <Button style="@style/btn"
+			 	android:id="@+id/btn_chat_send"
+			 	android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="10dip"
+			    android:text="发言"
+			    />
+			</LinearLayout>
+			<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+				android:id="@+id/chat_scrollView"
+        		android:layout_width="150dip" 
+        		android:layout_height="100dip"
+        		android:scrollbars="vertical" 
+        		android:fadingEdge="vertical"
+        		android:scrollbarStyle="insideInset"
+        		android:background="@drawable/chat_bg"
+				> 			
+					<TextView android:id="@+id/chat_view"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:textColor="@color/white"
+						android:layout_marginTop="5dip"
+						android:textSize="13dip" 
+					/>
+			</ScrollView>
+		</LinearLayout>
+		<FrameLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:layout_alignParentBottom="true"
+			android:layout_weight="1.0"
+			>
+			<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="bottom|center"
+				android:background="@drawable/toolbar_bg"
+				android:layout_marginBottom="2dip"
+			/>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="bottom|center"
+				android:gravity="bottom|center"
+				android:layout_marginBottom="5dip"
+				>
+				<ImageButton android:id="@+id/toolbar_role"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/toolbar_role"
+				/>
+				<ImageButton android:id="@+id/toolbar_bag"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/toolbar_bag"
+				android:layout_marginLeft="12dip"
+				/>
+				<ImageButton android:id="@+id/toolbar_skill"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/toolbar_skill"
+				android:layout_marginLeft="12dip"
+				/>
+				<ImageButton android:id="@+id/toolbar_task"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/toolbar_task"
+				android:layout_marginLeft="12dip"
+				/>
+				<ImageButton android:id="@+id/toolbar_friend"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/toolbar_friend"
+				android:layout_marginLeft="12dip"
+				/>
+				<ImageButton android:id="@+id/toolbar_family"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/toolbar_family"
+				android:layout_marginLeft="12dip"
+				/>
+				<ImageButton android:id="@+id/toolbar_pay"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/toolbar_pay"
+				android:layout_marginLeft="12dip"
+				/>
+			</LinearLayout>
+			<ImageButton android:id="@+id/toolbar_shop"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="bottom|right"
+				android:background="@drawable/toolbar_shop"
+				android:layout_marginBottom="15dip"
+				android:layout_marginRight="5dip"
+			/>
+		</FrameLayout>
+	 </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:paddingTop="5dip"
+	android:paddingLeft="10dip"
+	android:paddingRight="10dip"
+	android:paddingBottom="10dip"
+	>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:background="@drawable/bag_bg"
+		>
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			>
+			<RadioGroup 
+				android:id="@+id/bag_group"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:checkedButton="@+id/bag_all"
+				>
+				<RadioButton android:id="@+id/bag_all"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:background="@drawable/bag_menu_bg"
+					android:button="@null"
+					android:textColor="@color/white"
+					android:gravity="center_horizontal"
+					android:text="@string/text_bag_all"
+					/>
+				 <RadioButton android:id="@+id/bag_drug"
+				 	android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:background="@drawable/bag_menu_bg"
+					android:button="@null"
+					android:textColor="@color/white"
+					android:gravity="center_horizontal"
+					android:text="@string/text_bag_drug"
+					/>
+				<RadioButton android:id="@+id/bag_equip"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:background="@drawable/bag_menu_bg"
+					android:button="@null"
+					android:textColor="@color/white"
+					android:gravity="center_horizontal"
+					android:text="@string/text_bag_equip"
+					/>
+				<RadioButton android:id="@+id/bag_other"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:background="@drawable/bag_menu_bg"
+					android:button="@null"
+					android:textColor="@color/white"
+					android:gravity="center_horizontal"
+					android:text="@string/text_bag_other"
+					/>
+			</RadioGroup>
+		</LinearLayout>
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:padding="8dip"
+			>
+			<GridView xmlns:android="http://schemas.android.com/apk/res/android" 
+		   		android:id="@+id/bag_item_list"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dip"
+				android:layout_marginTop="1dip"
+				android:verticalSpacing="3dip"
+				android:horizontalSpacing="10dip"
+				android:numColumns="7"
+				android:stretchMode="columnWidth"
+				android:gravity="center"
+			/>		
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

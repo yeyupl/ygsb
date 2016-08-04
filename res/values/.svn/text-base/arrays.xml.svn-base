@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string-array name="camp_name">
+		<item>人族</item>
+		<item>妖族</item>
+	</string-array>
+	<string-array name="camp_value">
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+	
+	<string-array name="job_name">
+		<item>战将</item>
+		<item>法师</item>
+		<item>妖兽</item>
+		<item>妖精</item>
+	</string-array>
+	<string-array name="job_value">
+		<item>1001</item>
+		<item>1002</item>
+		<item>2001</item>
+		<item>2002</item>
+	</string-array>
+	
+	<string-array name="map_name">
+		<item>人族主城</item>
+		<item>妖族主城</item>
+		<item>中立城</item>
+		<item>魔界</item>
+	</string-array>
+	<string-array name="map_value">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+	</string-array>
+	<string-array name="map_scene_1_name">
+		<item>铁匠铺</item>
+		<item>竞技场</item>
+		<item>帮派管理中心</item>
+		<item>练功房</item>
+	</string-array>
+	<string-array name="map_scene_1_value">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+	</string-array>
+	<string-array name="map_scene_1_config">
+		<item>1</item>
+		<item>50</item>
+		<item>100</item>
+		<item>1</item>
+		<item>3</item>
+	</string-array>
+</resources>

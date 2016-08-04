@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/game_ygsb/!svn/ver/103/android/trunk/src/com/uy/ygsb/Game
+END
+GameBag.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/game_ygsb/!svn/ver/116/android/trunk/src/com/uy/ygsb/Game/GameBag.java
+END
+GameShop.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/game_ygsb/!svn/ver/116/android/trunk/src/com/uy/ygsb/Game/GameShop.java
+END
+GameMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/game_ygsb/!svn/ver/116/android/trunk/src/com/uy/ygsb/Game/GameMap.java
+END
+GameSkill.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/game_ygsb/!svn/ver/116/android/trunk/src/com/uy/ygsb/Game/GameSkill.java
+END
+Constant.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/game_ygsb/!svn/ver/116/android/trunk/src/com/uy/ygsb/Game/Constant.java
+END
+GameBigMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/game_ygsb/!svn/ver/116/android/trunk/src/com/uy/ygsb/Game/GameBigMap.java
+END
+GameChat.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/game_ygsb/!svn/ver/116/android/trunk/src/com/uy/ygsb/Game/GameChat.java
+END
+GameRole.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/game_ygsb/!svn/ver/116/android/trunk/src/com/uy/ygsb/Game/GameRole.java
+END

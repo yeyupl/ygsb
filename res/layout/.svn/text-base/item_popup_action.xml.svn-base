@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:orientation="vertical" 
+	 android:layout_width="wrap_content" 
+	 android:layout_height="wrap_content"
+	 >
+	<Button android:id="@+id/item_btn_buy"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		style="@style/popup_action_btn"
+		android:visibility="gone"
+		android:text="@string/item_btn_buy"
+		/>
+	<Button android:id="@+id/item_btn_sell"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		style="@style/popup_action_btn"
+		android:visibility="gone"
+		android:text="@string/item_btn_sell" 
+		/>
+	<Button android:id="@+id/item_btn_use"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		style="@style/popup_action_btn"
+		android:visibility="gone"
+		android:text="@string/item_btn_use" 
+		/>
+	<Button android:id="@+id/item_btn_equip"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		style="@style/popup_action_btn"
+		android:visibility="gone"
+		android:text="@string/item_btn_equip" 
+		/>
+	<Button android:id="@+id/item_btn_drop"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		style="@style/popup_action_btn"
+		android:visibility="gone"
+		android:text="@string/item_btn_drop" 
+		/>
+</LinearLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/bigmap_world"
+	>
+	<ImageView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/bigmap_top"
+		/>
+	<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_weight="1.0"
+		>
+		<ImageButton android:id="@+id/bigmap_beast_1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bigmap_beast_1"
+			android:layout_gravity="left"
+			/>
+		<ImageButton android:id="@+id/bigmap_beast_2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bigmap_beast_2"
+			android:layout_gravity="left"
+			android:layout_marginLeft="80dip"
+			android:layout_marginTop="30dip"
+			/>
+		<ImageButton android:id="@+id/bigmap_beast_3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bigmap_beast_3"
+			android:layout_gravity="left"
+			android:layout_marginLeft="20dip"
+			android:layout_marginTop="100dip"
+			/>
+		<ImageButton android:id="@+id/bigmap_beast_4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bigmap_beast_4"
+			android:layout_gravity="left|bottom"
+			android:layout_marginLeft="30dip"
+			android:layout_marginBottom="30dip"
+			/>
+		<ImageButton android:id="@+id/bigmap_beast_5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bigmap_beast_5"
+			android:layout_gravity="left|bottom"
+			android:layout_marginLeft="100dip"
+			android:layout_marginBottom="50dip"
+			/>
+		<ImageButton android:id="@+id/bigmap_beast_6"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bigmap_beast_6"
+			android:layout_gravity="left"
+			android:layout_marginLeft="130dip"
+			android:layout_marginTop="100dip"
+			/>
+		
+		<ImageButton android:id="@+id/bigmap_human_1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bigmap_human_1"
+			android:layout_gravity="right|bottom"
+			/>
+		<ImageButton android:id="@+id/bigmap_human_2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bigmap_human_2"
+			android:layout_gravity="right|bottom"
+			android:layout_marginRight="10dip"
+			android:layout_marginBottom="90dip"
+			/>
+		<ImageButton android:id="@+id/bigmap_human_3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bigmap_human_3"
+			android:layout_gravity="right"
+			android:layout_marginRight="70dip"
+			android:layout_marginTop="60dip"
+			/>
+		<ImageButton android:id="@+id/bigmap_human_4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bigmap_human_4"
+			android:layout_gravity="right"
+			android:layout_marginRight="20dip"
+			/>
+		<ImageButton android:id="@+id/bigmap_human_5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bigmap_human_5"
+			android:layout_gravity="right"
+			android:layout_marginRight="140dip"
+			/>
+		<ImageButton android:id="@+id/bigmap_human_6"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bigmap_human_6"
+			android:layout_gravity="left"
+			android:layout_marginLeft="200dip"
+			android:layout_marginTop="10dip"
+			/>
+		
+		<ImageButton android:id="@+id/bigmap_neutral_1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bigmap_neutral_1"
+			android:layout_gravity="left"
+			android:layout_marginLeft="240dip"
+			android:layout_marginTop="50dip"
+			/>
+		<ImageButton android:id="@+id/bigmap_neutral_2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bigmap_neutral_2"
+			android:layout_gravity="left|bottom"
+			android:layout_marginLeft="200dip"
+			android:layout_marginBottom="90dip"
+			/>
+			
+		<ImageButton android:id="@+id/bigmap_evil"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/bigmap_evil"
+			android:layout_gravity="left|bottom"
+			android:layout_marginLeft="185dip"
+			/>
+		
+		<ImageButton android:id="@+id/btn_bigmap_close"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:background="@drawable/btn_close"
+			android:layout_gravity="right"
+			android:layout_marginTop="5dip"
+			android:layout_marginRight="5dip"
+			/>
+	</FrameLayout>
+	<ImageView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/bigmap_bottom"
+		/>
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:gravity="center_vertical"
+	>
+	<ImageView 
+		android:id="@+id/role_avatar" 
+		android:layout_width="60dip"
+		android:layout_height="60dip"
+		android:background="@drawable/role_avatar_bg"
+		android:src="@drawable/avatar"
+	/>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical" 
+		android:gravity="center_vertical"
+		android:layout_weight="1.0"
+		>
+		<TextView android:id="@+id/role_name"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@color/yellow"
+			android:textSize="15dip"
+			/>
+		 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1.0"
+				>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@color/white"
+					android:textSize="15dip"
+					android:text="@string/text_role_level_hint"
+					/>
+				 <TextView android:id="@+id/role_level"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@color/yellow"
+					android:textSize="15dip"
+					android:text="Lv 1"
+					/>
+			</LinearLayout>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1.0"
+				>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@color/white"
+					android:textSize="15dip"
+					android:text="@string/text_role_energy_hint"
+					/>
+				 <TextView android:id="@+id/role_energy"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@color/yellow"
+					android:textSize="15dip"
+					android:text="0"
+					/>
+			</LinearLayout>
+			
+		 </LinearLayout>
+		  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1.0"
+				>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@color/white"
+					android:textSize="15dip"
+					android:text="@string/text_role_camp_hint"
+					/>
+				 <TextView android:id="@+id/role_camp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@color/yellow"
+					android:textSize="15dip"
+					/>
+			</LinearLayout>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1.0"
+				>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@color/white"
+					android:textSize="15dip"
+					android:text="@string/text_role_job_hint"
+					/>
+				 <TextView android:id="@+id/role_job"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@color/yellow"
+					android:textSize="15dip"
+					/>
+			</LinearLayout>
+			
+		 </LinearLayout>
+	</LinearLayout>
+</LinearLayout>

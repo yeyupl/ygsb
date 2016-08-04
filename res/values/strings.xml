@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">远古神兵</string>
+    
+    <string name="btn_ok">确定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_accept">接受</string>
+	<string name="btn_refuse">拒绝</string>
+	<string name="btn_back">返回</string>
+	<string name="btn_close">关闭</string>
+	<string name="btn_reg">注册</string>
+	<string name="btn_login">登录</string>
+	<string name="btn_create">创建</string>
+	<string name="btn_exit">退出</string>
+	<string name="btn_reset_poin">洗点</string>
+	<string name="btn_upgrade">升级</string>
+	
+	<string name="text_network_fail">网络无法连接</string>
+	<string name="text_network_fail_msg">未检测到网络连接，可能无法正常游戏，请检查网络设置！</string>
+	<string name="text_server_response_fail">网络无连接或服务器异常，请重试或联系客服！</string>
+    <string name="text_reg">注册帐号</string>
+    <string name="text_login">登录游戏</string>
+    <string name="text_setting">游戏设置</string>
+    <string name="text_help">游戏帮助</string>
+    <string name="text_exit">离开游戏</string>
+    <string name="text_exit_msg">确定要退出[远古神兵]？</string>
+    <string name="text_select_server">选择服务器</string>
+    <string name="text_create_role">创建角色</string>
+    <string name="text_role">角色详细信息</string>
+    <string name="text_bag">背包</string>
+    <string name="text_skill">技能</string>
+    
+    <string name="text_reg_agreement">用户协议</string>
+    <string name="text_reg_agreement_content">1、用户权利。\n2、用户义务。\n3、远古网络权利。\n4、远古网络义务。</string>
+	
+	<string name="text_account">帐号：</string>
+    <string name="text_password">密码：</string>
+    <string name="text_confirm_password">确认密码：</string>
+    <string name="text_account_hint">3~10位字母、数字、下划线</string>
+    <string name="text_password_hint">6~20位字母、数字、下划线</string>
+    <string name="text_confirm_password_hint">重复刚才输入的密码</string>
+    <string name="reg_digits">_0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ</string> 
+    <string name="text_account_toast">帐号长度必须3位或以上！</string>
+    <string name="text_password_toast">密码长度必须6位或以上！</string>
+    <string name="text_confirm_password_toast">两次输入的密码不一致！</string>
+    
+    <string name="text_server_unopened">此服务器尚未开放！</string>
+    
+    <string name="camp_human">人族</string>
+    <string name="camp_beast">妖族</string>
+    <string name="gender_male">男</string>
+    <string name="gender_female">女</string>
+    <string name="job_mars">战神</string>
+    <string name="job_mage">法师</string>
+    <string name="job_beast">妖兽</string>
+    <string name="job_fairy">妖精</string>
+    <string name="job_mars_intro">战神最无敌，神挡杀神，佛挡杀佛！</string>
+    <string name="job_mage_intro">法师具有强大的法术，死后满血满蓝原地复活！</string>
+    <string name="job_beast_intro">妖兽无惧一切伤害，杀遍三界无敌手！</string>
+    <string name="job_fairy_intro">妖精拥有华丽的妖术，秒杀一切！</string>
+    
+    <string name="text_role_name_hint">角色名:3~15位</string>
+    <string name="text_role_name_msg">角色名必须在3-15个字符之间！</string>
+    
+    <string name="text_role_level_hint">等级：</string>
+    <string name="text_role_camp_hint">阵营：</string>
+    <string name="text_role_energy_hint">精力：</string>
+    <string name="text_role_job_hint">职业：</string>
+    <string name="text_role_power_hint">力量：</string>
+    <string name="text_role_mind_hint">精神：</string>
+    <string name="text_role_agile_hint">敏捷：</string>
+    <string name="text_role_rest_energy_hint">剩余精力：</string>
+    <string name="text_role_points_hint">可用点数：</string>
+    <string name="text_role_power_tips">影响物理攻击</string>
+    <string name="text_role_mind_tips">影响魔法攻击</string>
+    <string name="text_role_agile_tips">影响攻击速度</string>
+    
+    <string name="text_bag_all">全部</string>
+    <string name="text_bag_drug">药品</string>
+    <string name="text_bag_equip">装备</string>
+    <string name="text_bag_other">其他</string>
+    
+    <string name="text_skill_detail">技能属性</string>
+    <string name="text_skill_level_hint">等级：</string>
+    <string name="text_skill_defense_hint">防御：</string>
+    <string name="text_skill_hunt_hint">伤害：</string>
+    <string name="text_skill_use_hint">使用：</string>
+    
+    <string name="text_shop_hot">新品热卖</string>
+    <string name="text_shop_prop">常用道具</string>
+    <string name="text_shop_diamond">宝石护符</string>
+    
+    <string name="item_btn_buy">购买</string>
+    <string name="item_btn_sell">出售</string>
+    <string name="item_btn_use">使用</string>
+    <string name="item_btn_equip">装备</string>
+    <string name="item_btn_drop">丢弃</string>
+    
+    
+</resources>
